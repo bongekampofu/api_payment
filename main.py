@@ -12,7 +12,7 @@ from wtforms.validators import InputRequired
 import os
 from werkzeug.utils import secure_filename
 import stripe
-stripe.api_key = "sk_test_51OYVVtIxAddVFuXcf4uGIE8ayqeIgL50gkpwURL8vzwajG4uvr3SlX60YqfQiU9ECExwLYM0pWNnITikTRXVDjg200fLIXf2mn"
+stripe.api_key = "sk_test_51OYVVtIxAddVFuXcg200fLIXf2mn"
 
 
 main = Blueprint("main", __name__)
